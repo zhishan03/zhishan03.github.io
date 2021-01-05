@@ -70,7 +70,7 @@ td{
   font-family: 'Courier New', Courier, monospace;
   padding: 6px;
   padding: 7px 25px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 200;
 }
 
@@ -98,8 +98,8 @@ main {
 }
 
 .ml11 {
-  font-weight: 700;
-  font-size: 3.5em;
+  font-weight: 600;
+  font-size: 3em;
 }
 
 .ml11 .text-wrapper {
@@ -132,7 +132,7 @@ main {
 
 .pro {
   position: relative;
-  font-size: 18px;
+  font-size: 16px;
   bottom: -45px;
   transform: translate(-50%, -50%);
 }
