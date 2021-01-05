@@ -139,6 +139,7 @@ main {
 
 .overlay {
   background-color: #a0c1b8;
+  background-size: 100vw;
   border-bottom-left-radius: 40% 10%;
   border-bottom-right-radius: 40% 10%;
   padding-bottom: 180px;
@@ -242,6 +243,7 @@ main {
   width: 280px;
   float: left;
   margin-right: 40px;
+  border: 2px solid #cfd8dc;
 }
 
 .code2-img {
@@ -250,6 +252,7 @@ main {
   width: 280px;
   float: right;
   margin-left: 40px;
+  border: 3px solid #cfd8dc;
 }
 
 .btn {
