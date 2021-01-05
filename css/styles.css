@@ -243,7 +243,6 @@ main {
   width: 280px;
   float: left;
   margin-right: 40px;
-  border: 2px solid #cfd8dc;
 }
 
 .code2-img {
@@ -252,7 +251,6 @@ main {
   width: 280px;
   float: right;
   margin-left: 40px;
-  border: 3px solid #cfd8dc;
 }
 
 .btn {
@@ -323,12 +321,14 @@ a.footer-link {
   margin-bottom: 0px;
 }
 
-.button:hover {
-  box-shadow: inset 0 0 0 2px #056676;
-  color: #056676;
+.button.small:hover {
+  /* box-shadow: inset 0 0 0 2px #056676; */
+  color: #ffffff;
+  background-color: #6f9eaf; 
 }
 
 .button.small {
+  background-color: #ffffff;
   font-size: 0.7rem;
   height: 2rem;
   line-height: 2rem;
@@ -338,6 +338,7 @@ a.footer-link {
   right: 8px;
   margin-left: 8px;
   border-radius: 8px;
+  transition-duration: 0.4s;
 }
 
 /* navigation */
