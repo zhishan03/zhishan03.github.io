@@ -194,7 +194,19 @@ main {
   padding-top: 80px;
 }
 
-.skill-row {
+.skill-row1 {
+  /* border-left: 2px solid #a0c1b8; */
+  box-shadow:-3px 0px 5px 0.7px #e4e3e3;
+  position: relative;
+  width: 60%;
+  margin: 50px auto 50px auto;
+  padding: 80px;
+  text-align: left;
+  background-color: white;
+}
+
+.skill-row2 {
+  box-shadow: 3px 0px 5px 0.7px #e4e3e3;
   position: relative;
   width: 60%;
   margin: 50px auto 50px auto;
@@ -323,12 +335,18 @@ a.footer-link {
 
 .button.small:hover {
   /* box-shadow: inset 0 0 0 2px #056676; */
-  color: #ffffff;
-  background-color: #6f9eaf; 
+  color: #10375c;
+  background-color: #f4f4f4; 
+  -moz-transform: translate(0px, -4px);
+  -ms-transform: translate(0px, -4px);
+  -o-transform: translate(0px, -4px);
+  -webkit-transform: translate(0px, -4px);
+  transform: translate(0px, -4px)
 }
 
 .button.small {
-  background-color: #ffffff;
+  background-color: #10375c;
+  color: #e8eae6;
   font-size: 0.7rem;
   height: 2rem;
   line-height: 2rem;
@@ -338,7 +356,8 @@ a.footer-link {
   right: 8px;
   margin-left: 8px;
   border-radius: 8px;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
+  transition: transform 0.3s;
 }
 
 /* navigation */
