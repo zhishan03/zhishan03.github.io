@@ -239,16 +239,16 @@ main {
 
 .c-glitch__img {
   margin-top: -4%;
-  height: 190px;
-  width: 280px;
+  height: 200px;
+  width: 320px;
   float: left;
   margin-right: 40px;
 }
 
 .code2-img {
-  margin-top: -4%;
-  height: 190px;
-  width: 280px;
+  margin-top: -5%;
+  height: 200px;
+  width: 320px;
   float: right;
   margin-left: 40px;
 }
