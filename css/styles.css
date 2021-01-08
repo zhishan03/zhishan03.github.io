@@ -203,6 +203,7 @@ main {
   padding: 80px;
   text-align: left;
   background-color: white;
+  border-radius: 15px;
 }
 
 .skill-row2 {
@@ -213,6 +214,7 @@ main {
   padding: 80px;
   text-align: left;
   background-color: white;
+  border-radius: 15px;
 }
 
 .intro {
