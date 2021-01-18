@@ -205,6 +205,21 @@ main {
   padding: 50px 20px;
 }
 
+.icon {
+  position: relative;
+  padding: 5px 10px;
+  transition-duration: 0.3s;
+  transition: transform 0.3s;
+}
+
+.linkedin:hover {
+  color: #00587a;
+}
+
+.github:hover {
+  color: black;
+}
+
 #bottom-container {
   background-color: #f1f1e8;
 }
